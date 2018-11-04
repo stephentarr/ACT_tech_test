@@ -1,0 +1,63 @@
+@import "utils/import_once";
+
+@include exports('navigation') {
+
+  .wrap-nav {
+
+    position: relative;
+    z-index: 10;
+
+    ul {
+
+      text-align: right;
+      margin: 0;
+
+      li {
+
+        display: inline-block;
+        vertical-align: middle;
+        margin: 1em 1em 1em 0;
+
+        a {
+
+          color: white;
+          text-decoration: none;
+          font-size: 2.15em;
+          margin: 0.25em;
+
+          &:hover {
+            text-decoration: underline;
+            cursor: pointer;
+          }
+
+        }
+
+      }
+
+    }
+
+  }
+
+  .ui-nav-pagination{
+
+    margin-bottom: 15px;
+
+    p{
+      display: inline-block;
+    }
+
+    a {
+
+      color: white;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+        cursor: pointer;
+      }
+
+    }
+
+  }
+
+}

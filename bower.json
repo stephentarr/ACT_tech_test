@@ -1,0 +1,22 @@
+{
+  "name": "act_angular_test",
+  "description" : "",
+  "main": "js/App.js",
+  "version" : "1.0.0",
+  "authors": [
+    "Stephen Tarr"
+  ],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "requirejs": "^2.1.22",
+    "angular": "^1.5.5",
+    "angular-route": "^1.5.5",
+    "angular-animate": "^1.5.5"
+  }
+}

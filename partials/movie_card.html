@@ -1,0 +1,23 @@
+<div class="movie_card_wrap">
+
+    <div class="movie_card clear">
+
+        <a ng-href="#!/movie?movieId={{movieId}}"> <img ng-src="{{posterImageUrl}}"> </a>
+
+        <div class="movie_card_info">
+
+            <a class="title" ng-href="#!/movie?movieId={{movieId}}"> <h3 ng-bind="title"></h3> </a>
+
+            <p class="vote_average">Rating : {{voteAverage}} / 10</p>
+
+            <p class="release_date"> Release Date : {{releaseDateFormatted}}</p>
+
+            <p class="overview" ng-bind="overview"></p>
+
+            <a class="more" ng-href="#!/movie?movieId={{movieId}}"> More Info </a>
+
+        </div>
+
+    </div>
+
+</div>

@@ -1,0 +1,30 @@
+<div ng-if="error" ng-bind="error"></div>
+
+<div ng-include src="'partials/ui_navigation.html'"></div>
+
+<div id="wrap-latest" class="wrap-latest wrap">
+
+    <h2> Latest </h2>
+
+    <section>
+
+        <div movie-card ng-repeat="movie in movieItems"
+             movie-id="{{movie.id}}"
+             title="{{movie.title}}"
+             overview="{{movie.overview}}"
+             release-date="{{movie.release_date}}"
+             vote-average="{{movie.vote_average}}"
+             poster-path="{{movie.poster_path}}">
+        </div>
+
+    </section>
+
+    <div ng-if="!error"
+            ui-nav-pagination="::page"
+            ui-nav-pagination-link="#!latest/"
+            ui-nav-pagination-total-pages="::total_pages"
+            ui-nav-pagination-next-label="Next Page &raquo;"
+            ui-nav-pagination-prev-label="&laquo; Previous Page">
+    </div>
+
+</div>

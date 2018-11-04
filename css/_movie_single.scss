@@ -1,0 +1,57 @@
+@import "utils/import_once";
+
+@include exports('movie_single') {
+
+  p{
+    color: white;
+  }
+
+  .backdrop , .overlay{
+
+    width: 100%;
+    height: 600px;
+    background-color: rgba(8,28,36,0.6);
+    position: absolute;
+    top:0;
+    left:0;
+
+  }
+
+  .movie_single_wrapper{
+
+    position: relative;
+    width: 55%;
+    margin: auto;
+
+    img {
+
+      width: 40%;
+      float: left;
+
+    }
+
+  }
+
+  .movie_single_info{
+
+    padding: 1em;
+    width: 50%;
+    float: left;
+
+    a{
+
+      color:white;
+      text-decoration: none;
+
+      &:hover{
+
+        text-decoration: underline;
+        cursor: pointer;
+
+      }
+
+    }
+
+  }
+
+}

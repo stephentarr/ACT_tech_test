@@ -1,0 +1,17 @@
+<div class="ui-nav-pagination">
+
+    <div ng-if="totalPages > 1" class="clear">
+
+        <a ng-if="page > 1" ng-href="{{prevLink}}" class="prev-link" >
+            {{::prevLabel}}
+        </a>
+
+        <p ng-if="page > 1">{{sep}}</p>
+
+        <a ng-if="page < totalPages" ng-href="{{nextLink}}" class="next-link">
+            {{::nextLabel}}
+        </a>
+
+    </div>
+
+</div>

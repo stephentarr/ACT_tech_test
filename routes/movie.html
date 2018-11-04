@@ -1,0 +1,29 @@
+
+<div ng-include src="'partials/ui_navigation.html'"></div>
+
+<div id="wrap-movie" class="wrap-movie wrap">
+
+    <div class="backdrop" ng-style='backdrop'></div>
+    <div class="overlay"></div>
+
+    <div class="movie_single_wrapper clear">
+
+        <img ng-src="{{posterPath}}" />
+
+        <div class="movie_single_info">
+
+            <h2 ng-bind="title"></h2>
+            <h3 ng-bind="tagline"></h3>
+
+            <h4>Overview</h4>
+            <p ng-bind="overview"></p>
+
+            <p class="vote_average">Rating : {{voteAverage}} / 10</p>
+
+            <a ng-href="{{trailerLink}}" target="_blank"> &#9658 Play Trailer </a>
+
+        </div>
+
+    </div>
+
+</div>

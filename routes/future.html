@@ -1,0 +1,20 @@
+<div ng-include src="'partials/ui_navigation.html'"></div>
+
+<div id="wrap-future" class="wrap-future wrap">
+
+    <h2> Future </h2>
+
+    <section>
+
+        <div movie-card ng-repeat="movie in futureItems"
+             movie-id="{{movie.id}}"
+             title="{{movie.title}}"
+             overview="{{movie.overview}}"
+             release-date="{{movie.release_date}}"
+             vote-average="{{movie.vote_average}}"
+             poster-path="{{movie.poster_path}}">
+        </div>
+
+    </section>
+
+</div>

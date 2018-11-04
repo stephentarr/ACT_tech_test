@@ -1,0 +1,77 @@
+@import "utils/import_once";
+
+@include exports('movie_card') {
+
+  .movie_card_wrap{
+
+    width: 50%;
+    vertical-align: top;
+    display: inline-block;
+
+    margin-bottom:2em;
+
+    .movie_card{
+
+      img{
+
+        width: 50%;
+        float: left;
+
+        box-sizing: border-box;
+
+      }
+
+      .movie_card_info{
+
+        width: 50%;
+        float: left;
+        padding: 2em;
+
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+
+        p{
+          color: white;
+        }
+
+        .title {
+
+          text-decoration: none;
+
+          h3 {
+            color: white;
+          }
+
+          &:hover{
+
+            text-decoration: underline;
+            text-decoration-color: white;
+            cursor: pointer;
+
+          }
+
+        }
+
+        .more{
+
+          color: white;
+          text-decoration: none;
+
+          &:hover{
+
+            text-decoration: underline;
+            text-decoration-color: white;
+            cursor: pointer;
+
+          }
+
+        }
+
+      }
+
+    }
+
+  }
+
+}
