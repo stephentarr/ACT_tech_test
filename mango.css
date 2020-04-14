@@ -78,7 +78,9 @@ img {
 }
 
 #ekashu_card_logos_accepted img {
-  margin: 1px;
+  margin: 6px;
+  height: 34px;
+  width: auto;
 }
 
 #ekashu_card_logos_verification {
