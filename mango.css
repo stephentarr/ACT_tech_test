@@ -19,31 +19,36 @@ img {
 #ekashu_3d_logo_amex {
   float: left;
   top: 0px;
+  padding: 6px;
 }
 
 #ekashu_3d_logo_discover {
   float: left;
   top: 0px;
+  padding: 6px;
 }
 
 #ekashu_3d_logo_jcb {
   float: left;
   top: 0px;
+  padding: 6px;
 }
 
 #ekashu_3d_logo_mastercard {
   float: left;
   top: 0px;
+  padding: 6px;
 }
 
 #ekashu_3d_logo_visa {
   float: left;
   top: 0px;
+  padding: 6px;
 }
 
 #ekashu_amount {
   font-size: 48pt;
-  /* font-weight: bold; */
+  font-weight: bold;
   margin-bottom: 2px;
   margin-top: 45px;
   color: white;
@@ -68,6 +73,8 @@ img {
   font-size: 0px;
   padding: 0px 7px 2px 5px;
   width: 231px;
+  position: absolute;
+  bottom: -200px;
 }
 
 #ekashu_card_logos_accepted img {
@@ -176,35 +183,43 @@ img {
 
 #ekashu_field_card_country {
   float: right;
+  text-transform: lowercase;
 }
 
 #ekashu_field_card_email_address {
   float: left;
+  text-transform: lowercase;
 }
 
 #ekashu_field_card_first_name {
   float: left;
+  text-transform: lowercase;
   width: 140px;
 }
 
 #ekashu_field_card_last_name {
   float: right;
+  text-transform: lowercase;
 }
 
 #ekashu_field_card_number {
   float: left;
+  text-transform: lowercase;
 }
 
 #ekashu_field_card_phone_number {
   float: left;
+  text-transform: lowercase;
 }
 
 #ekashu_field_card_phone_number_type {
   float: right;
+  text-transform: lowercase;
 }
 
 #ekashu_field_card_state {
   float: right;
+  text-transform: lowercase;
 }
 
 #ekashu_field_card_title {
@@ -279,6 +294,7 @@ img {
 #ekashu_field_expires_end {
   float: right;
   font-size: 30pt !important;
+  text-transform: lowercase;
 }
 
 #ekashu_field_invoice_address_1 {
@@ -360,10 +376,12 @@ img {
 #ekashu_field_valid_from {
   float: right;
   font-size: 30pt !important;
+  text-transform: lowercase;
 }
 
 #ekashu_field_verification_value {
   float: left;
+  text-transform: lowercase;
 }
 
 #ekashu_field_verification_value input {
@@ -402,7 +420,8 @@ img {
 
 .ekashu_input input {
   height: 116px;
-  width: 700px;
+  width: 100%;
+  margin: 0 24px;
   border: 1px solid black;
   font-size: 40pt;
 }
@@ -604,6 +623,7 @@ img {
   font-weight: bold;
   width: 231px;
   margin-bottom: 10px;
+  display: none;
 }
 
 .ekashu_section_top {
@@ -671,10 +691,12 @@ select {
   text-align: center;
   height: 100px;
   width: 300px;
-  border: 1px solid black;
+  border: 0;
+  margin: 0 24px;
   background: #b4efb1;
   color: black;
   font-size: 30pt;
+  text-transform: lowercase;
 }
 
 #ekashu_submit_continue {
@@ -695,7 +717,8 @@ select {
 }
 
 #ekashu_title {
-  color: black;
+  text-transform: lowercase;
+  color: white;
   font-size: 38pt;
   margin-bottom: 2px;
   position: absolute;
