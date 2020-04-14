@@ -81,6 +81,7 @@ img {
   margin: 6px;
   height: 34px;
   width: auto;
+  display: none;
 }
 
 #ekashu_card_logos_verification {
