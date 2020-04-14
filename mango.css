@@ -74,7 +74,7 @@ img {
   padding: 0px 7px 2px 5px;
   width: 231px;
   position: absolute;
-  bottom: -200px;
+  bottom: -225px;
 }
 
 #ekashu_card_logos_accepted img {
@@ -510,9 +510,13 @@ img {
 }
 
 .ekashu_label {
-  color: #000;
+  color: #fff;
   font-size: 35pt;
   margin-bottom: 15px;
+}
+
+.ekashu_label label{
+   color:#000;
 }
 
 .ekashu_mandatory {
