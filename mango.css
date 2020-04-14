@@ -81,7 +81,6 @@ img {
   margin: 6px;
   height: 34px;
   width: auto;
-  display: none;
 }
 
 #ekashu_card_logos_verification {
@@ -89,6 +88,7 @@ img {
   float: right;
   padding: 5px 0px 2px 5px;
   width: 236px;
+  display: none;
 }
 
 #ekashu_card_logos_verification_images {
