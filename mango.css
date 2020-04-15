@@ -696,9 +696,8 @@ select {
   text-align: center;
   text-align: center;
   height: 140px;
-  width: 100%;
+  width: calc( 100% - 128px );
   border: 0;
-  margin: 0 24px;
   background: #b4efb1;
   color: black;
   font-size: 30pt;
