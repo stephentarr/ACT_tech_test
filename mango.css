@@ -605,6 +605,8 @@ img {
 .ekashu_section {
   padding: 20px 20px 18px 20px;
   position: relative;
+  margin-left: 10px;
+  margin-right: 10px;
   margin-bottom: 20px;
   display: flex;
   flex-direction: column;
